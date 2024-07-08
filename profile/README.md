@@ -12,3 +12,5 @@ curl --silent --header "Authorization: Bearer your_token" "https://api.github.co
 ```
 
 If the specified `your_token` has read permissions on packages at *vitesse-sdk* organization, a list of private packages should be listed. Otherwise it will be empty.
+
+With this basic test, it can be verified whether a specific token is active or has been revoked.
